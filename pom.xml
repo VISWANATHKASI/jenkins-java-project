@@ -35,11 +35,6 @@
                <artifactId>maven-war-plugin</artifactId>
                <version>3.3.1</version>
              </plugin>
-	     <plugin>
-               <groupId>org.sonarsource.scanner.maven</groupId>
-               <artifactId>sonar-maven-plugin</artifactId>
-               <version>4.0.0.4121</version> 
-	     </plugin>
           </plugins>
         </build>
 
@@ -59,7 +54,7 @@
 	    <pluginRepository>    
 		<id>maven1</id>
 		<name>Maven.org</name>
-		<url>https://repo1.maven.org/maven2</url>
+		<url>http://repo1.maven.org/maven2</url>
 	    </pluginRepository>
 	</pluginRepositories>
 
