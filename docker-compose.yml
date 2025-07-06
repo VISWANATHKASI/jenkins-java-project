@@ -1,25 +1,25 @@
 version: '3.8'
 services:
   movies:
-    image: viswanathkasi/movies:latest
+    image: viswanathkasi/jmovies:latest
     ports:
       - "81:80"
     deploy:
       replicas: 3
   train:
-    image: viswanathkasi/train:latest
+    image: viswanathkasi/jtrain:latest
     ports:
       - "82:80"
     deploy:
       replicas: 3
   dth:
-    image: viswanathkasi/dth:latest
+    image: viswanathkasi/jdth:latest
     ports:
       - "83:80"
     deploy:
       replicas: 3
   recharge:
-    image: viswanathkasi/recharge:latest
+    image: viswanathkasi/jrecharge:latest
     ports:
       - "84:80"
     deploy:
