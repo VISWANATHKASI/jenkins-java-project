@@ -13,7 +13,7 @@
     </nav>
     <div class="background-image"></div>
     <div class="form-wrapper">
-      <h2>Dth V-4.7.1</h2>
+      <h2>Recharge V-4.7.1</h2>
       <form action="#">
         <div class="form-control">
           <input type="text" required />
