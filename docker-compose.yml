@@ -1,25 +1,25 @@
 version: '3.8'
 services:
   movies:
-    image: viswanathkasi/jmovies:latest
+    image: viswanathkasi/tomcat_redhat:latest
     ports:
       - "81:80"
     deploy:
       replicas: 3
   train:
-    image: viswanathkasi/jtrain:latest
+    image: viswanathkasi/tomcat_redhat:latest
     ports:
       - "82:80"
     deploy:
       replicas: 3
   dth:
-    image: viswanathkasi/jdth:latest
+    image: viswanathkasi/tomcat_redhat:latest
     ports:
       - "83:80"
     deploy:
       replicas: 3
   recharge:
-    image: viswanathkasi/jrecharge:latest
+    image: viswanathkasi/tomcat_redhat:latest
     ports:
       - "84:80"
     deploy:
