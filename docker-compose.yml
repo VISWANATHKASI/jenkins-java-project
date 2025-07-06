@@ -3,24 +3,24 @@ services:
   movies:
     image: viswanathkasi/tomcat_redhat:latest
     ports:
-      - "81:80"
+      - "8081:8080"
     deploy:
       replicas: 3
   train:
     image: viswanathkasi/tomcat_redhat:latest
     ports:
-      - "82:80"
+      - "8082:8080"
     deploy:
       replicas: 3
   dth:
     image: viswanathkasi/tomcat_redhat:latest
     ports:
-      - "83:80"
+      - "8083:8080"
     deploy:
       replicas: 3
   recharge:
     image: viswanathkasi/tomcat_redhat:latest
     ports:
-      - "84:80"
+      - "8084:8080"
     deploy:
       replicas: 3
