@@ -13,7 +13,7 @@
     </nav>
     <div class="background-image"></div>
     <div class="form-wrapper">
-      <h2>Recharge V-1.0.1</h2>
+      <h2>Train V-1.0.4</h2>
       <form action="#">
         <div class="form-control">
           <input type="text" required />
